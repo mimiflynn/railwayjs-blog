@@ -1,0 +1,14 @@
+{ "development":
+  { "driver": "mysql"
+  , "host": "localhost"
+  , "username": "root"
+  , "password": "root"
+  , "database": "railwayjs-blog"
+  }
+, "test":
+  { "driver":   "memory"
+  }
+, "production":
+  { "driver":   "memory"
+  }
+}
