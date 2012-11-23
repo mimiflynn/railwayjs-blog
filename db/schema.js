@@ -26,7 +26,8 @@ var Post = describe('Post', function () {
     property('content', String);
     property('date', Date);
     property('published', Boolean);
-});var Page = describe('Page', function () {
+});
+var Page = describe('Page', function () {
     property('title', String);
     property('content', String);
     property('createdOn', Date);
